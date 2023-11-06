@@ -1,0 +1,50 @@
+{
+   // quiero que el tabulador tome 2 espacios
+   "editor.tabSize": 3, //zoom in screen
+   "editor.wordWrap": "on",  //word wrap - visualizar toda la linea sin scrolear a la derecha
+   "emmet.includeLanguages": {
+       "javascript":"javascriptreact"  //autocomplete html
+   },
+   "workbench.sideBar.location": "right", //barra lateral a la derecha
+   "workbench.editor.showTabs": "multiple",  //mostrar tabs
+   "workbench.iconTheme": "material-icon-theme",  //iconos
+   "workbench.colorTheme": "One Dark Pro Mix",
+   "editor.inlineSuggest.enabled": true,
+   "editor.scrollbar.vertical": "hidden",  //ocultar scrollbar
+   "editor.overviewRulerBorder": false,    //ocultar linea en el scrollbar
+   "editor.hideCursorInOverviewRuler": true,   //quitar linea azul en el scrollbar
+   "editor.guides.indentation": false,   //quitar lineas de la indentación
+   "indenticator.width": 0.1,  //ancho de la indentación
+   "indenticator.color.dark": "rgba(255,255,255,0.2)",  //color de linea de indentación
+   "[javascript]": {
+       "editor.defaultFormatter": "esbenp.prettier-vscode" //formato de codigo con prettier
+   },
+   "files.autoSave": "afterDelay",
+   "[typescript]": {
+       "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+   "github.copilot.enable": {
+       "*": true,
+       "plaintext": true,
+       "markdown": true,
+       "scminput": false,
+       "yaml": false
+   },
+   "[json]": {
+       "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+   "[css]": {
+       "editor.defaultFormatter": "vscode.css-language-features"
+   },
+   "terminal.integrated.env.windows": {},
+   "terminal.integrated.defaultProfile.windows": "Git Bash",
+   "editor.minimap.enabled": false,
+   "window.zoomLevel": 1,
+   "editor.indentSize": "tabSize",
+   "editor.codeActionsOnSave": {
+
+   },
+   "editor.matchBrackets": false, //guardar automaticamente mostrar terminacio de llaves de cierre
+   "breadcrumbs.enabled": false,  // desactivar breadcrumbs (informacion del archivo que aparece arriba)
+   "editor.glyphMargin": false  //quitar margen de la izquierda
+}
